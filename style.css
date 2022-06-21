@@ -5,7 +5,7 @@
 }
 body{
     height: max-content;
-    background-color: rgb(27, 27, 27);
+    background-color: #202124;
     color: white;
     font-family: Arial, sans-serif;
     padding: 20px;
@@ -31,7 +31,6 @@ body{
     
 }
 main{
-    border: 2px solid red;
     width: fit-content;
     margin: auto;
     text-align: center;
