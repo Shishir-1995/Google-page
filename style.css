@@ -1,6 +1,46 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
-    height: 100vh;
+    height: max-content;
     background-color: rgb(27, 27, 27);
     color: white;
     font-family: Arial, sans-serif;
+    padding: 20px;
+    /* width: 800px  */
+    /* Need to remove this width later */
+    
+}
+.navigation{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.navigation>a{
+    text-decoration: none;
+    color: white;
+    /* margin: 7.5px; */
+    font-size: 13px;
+    margin-right: 15px;
+}
+.navigation>div{
+    width: 40px;
+    margin-left: 14px;
+    
+}
+main{
+    border: 2px solid red;
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+}
+.gb_Te{
+    fill: white;  
+    width: 24px; 
+    aspect-ratio: 1;
+}
+.gb_Ba{
+    border-radius: 50%;
 }
